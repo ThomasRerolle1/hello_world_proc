@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 hello_macro_proc = {path = "../hello_macro_proc"}
+hello_macro_proc_attr = {path = "../hello_macro_proc_attr"}

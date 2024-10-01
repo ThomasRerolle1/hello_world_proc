@@ -3,29 +3,12 @@
 version = 3
 
 [[package]]
-name = "hello_macro_proc"
-version = "0.1.0"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "hello_macro_proc_attr"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "hello_macro_proc_usage"
-version = "0.1.0"
-dependencies = [
- "hello_macro_proc",
- "hello_macro_proc_attr",
 ]
 
 [[package]]
